@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+   int a, b, c;
+   
+   printf("Enter a = ", a);
+   scanf("%d0\n", &a);
+
+   printf("Enter b = ", b);
+   scanf("%d0\n", &b);
+
+    c = a;
+    a = b;
+    b = a;
+    printf("a = %d\n", b);
+    printf("b = %d\n", c);
+    
+    return 0;
+}
