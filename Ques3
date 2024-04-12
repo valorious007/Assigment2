@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+   int a, b, c, d;
+
+   printf("Enter C.P = ", a);
+   scanf("%d0\n", &a);
+
+   printf("Enter S.P = ", b);
+   scanf("%d0\n", &b);
+
+   if (b>a)
+   {
+    c = b-a;
+    printf("Profit = %d\n", c);
+    d = (c*100/a);
+    printf("It's Profit Percentage is = %d%%\n", d);
+   }
+   else
+   {
+    printf("Looks like it's a Loss!");
+   }
+    return 0;
+}
