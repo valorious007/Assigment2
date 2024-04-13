@@ -4,8 +4,8 @@ int main()
 {
    int a;
 
-   printf("Enter a Number.: ", a);
-   scanf("%d0\n", &a);
+   printf("Enter a Number.:  \n", a);
+   scanf("%d", &a);
 
    if (a%2==1)
    {
