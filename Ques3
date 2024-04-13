@@ -4,11 +4,11 @@ int main()
 {
    int a, b, c, d;
 
-   printf("Enter C.P = ", a);
-   scanf("%d0\n", &a);
+   printf("Enter C.P = \n", a);
+   scanf("%d", &a);
 
-   printf("Enter S.P = ", b);
-   scanf("%d0\n", &b);
+   printf("Enter S.P = \n", b);
+   scanf("%d", &b);
 
    if (b>a)
    {
